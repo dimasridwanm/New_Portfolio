@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dimas - Personal Portfolio</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{{ url_for('static', filename='lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{{ url_for('static', filename='lib/ionicons/css/ionicons.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='lib/magnific-popup/magnific-popup-style.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='lib/hover/hover.min.css')}}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="{{ url_for('static', filename='css/responsive.css')}}" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png')}}">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="{{ url_for('static', filename='images/logo.png')}}" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#journal" class="smoothScroll">Blog</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+<div id="header" class="home">
+  <div class="container">
+    <div class="header-content">
+      <h1>I'm <span class="typed"></span></h1>
+      <p>Programmer, Data Scientist, Photographer</p>
+      <ul class="list-unstyled list-social">
+        <li><a href="https://www.instagram.com/dimsridwn/" target="_blank"><i class="ion-social-instagram"></i></a></li>
+        <li><a href="mailto:dimasridwanm@gmail.com" target="_blank"><i class="ion-social-google"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/dimas-ridwan-maulana-a9085b176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61550824156813&mibextid=ZbWKwL" target="_blank"><i class="ion-social-facebook"></i></a></li>
+        <li><a href="line://ti/p/@dimas_rdwn" target="_blank"><i class="ion-social-line"></i></a></li>
+        <li><a href="https://wa.me/6287770030105" target="_blank"><i class="ion-social-whatsapp"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- End section header -->
+
+
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="{{ url_for('static', filename='images/me.jpg')}}" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">Deeply involved in computer programs, data science, ocean modeling, photography, and design. </p>
+            <p class="separator">I am a student of Marine Science and Technology, Faculty of Fisheries and Marine Science, IPB University. Have an interest in oceanography and environmental modeling and proficient in web development and programming languages.
+              .</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+
+        <div class="services-carousel owl-theme">
+
+          <div class="services-block">
+
+            <i class="ion-ios-browsers-outline"></i>
+            <span>UI/UX DESIGN</span>
+            <p class="separator">Design attractive and functional user interfaces (UI) and ensure optimal user experience (UX) through deep understanding of user needs and effective design problem solving </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-lightbulb-outline"></i>
+            <span>BRAND IDENTITY</span>
+            <p class="separator">Create some new brands or developing and renewable brand design company </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-color-wand-outline"></i>
+            <span>WEB DESIGN</span>
+            <p class="separator">Designing website for professional company or organization </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-social-android-outline"></i>
+            <span>PROGRAMMER</span>
+            <p class="separator">Create, modify, and making ocean program based on Internet of Things (IoT) </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-analytics-outline"></i>
+            <span>Data Scientist</span>
+            <p class="separator">Experienced to operate Matlab, Python, Ocean Software, and Statistical Apps </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-camera-outline"></i>
+            <span>PHOTOGRAPHY</span>
+            <p class="separator">Expert at photography for nature and personal style </p>
+
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>My Portfolio</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">All</li>
+              <li class="filter" data-filter=".datascientist">Data Scientist</li>
+              <li class="filter" data-filter=".photography">Photography</li>
+              <li class="filter" data-filter=".oceansoftware">Ocean Software</li>
+              <li class="filter" data-filter=".oceanmodel">Ocean Modeling</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all datascientist">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/datascientist1.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/datascientist1.jpg')}}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all datascientist">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/datascientist2.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/datascientist2.jpg')}}"  alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all datascientist">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/datascientist3.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/datascientist3.jpg')}}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all datascientist">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/datascientist4.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/datascientist4.jpg')}}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all datascientist">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/datascientist5.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/datascientist5.jpg')}}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all datascientist">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/datascientist6.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/datascientist6.jpg')}}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/photography1.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/photography1.jpg')}}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/photography2.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/photography2.jpg')}}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/photography3.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/photography3.jpg')}}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/photography4.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/photography4.jpg')}}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/photography5.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/photography5.jpg')}}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all oceansoftware center-img">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/oceansoftware.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/oceansoftware.jpg')}}" alt="img">
+              </a>
+            </div>
+                       
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all oceanmodel">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/oceanmodeling1.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/oceanmodeling1.jpg')}}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all oceanmodel">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/oceanmodeling2.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/oceanmodeling2.jpg')}}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all oceanmodel">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/oceanmodeling3.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/oceanmodeling3.jpg')}}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all oceanmodel">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/oceanmodeling4.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/oceanmodeling4.jpg')}}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all oceanmodel">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/oceanmodeling5.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/oceanmodeling5.jpg')}}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all oceanmodel">
+              <a class="popup-img" href="{{ url_for('static', filename='images/portfolio/oceanmodeling6.jpg')}}">
+                <img src="{{ url_for('static', filename='images/portfolio/oceanmodeling6.jpg')}}" alt="img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>experience</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="{{ url_for('static', filename='images/blog-post-1.jpg')}}" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="blog-single.html">KONSURV 2023</a></h4>
+                <p class="separator">Became the Chairperson of KONSURV 2023, which is one of the main work programs in HIMITEKA
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="{{ url_for('static', filename='images/blog-post-2.jpg')}}" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="#blog-single.html">Marine Surveyor</a></h4>
+                <p class="separator">More than 3 years of experience in marine surveying which includes sea surface, deep sea, and aerial photography (drone) data collection 
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="{{ url_for('static', filename='images/blog-post-3.jpg')}}" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="blog-single.html">BRIN Research Internship</a></h4>
+                <p class="separator">Collect data, analyze, and find out the characteristics of water masses in the southern waters of Java using the ARGO Float instrument. Then present the research results
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section journal -->
+
+
+  <!-- start section contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <li><span>Boulevard VMC</span></li>
+                <li><span>Depok, Indonesia</span></li>
+                <li><span>+62 87770030105</span></li>
+                <li><span>dimasridwanm@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled list-social">
+        <li><a href="https://www.instagram.com/dimsridwn/" target="_blank"><i class="ion-social-instagram"></i></a></li>
+        <li><a href="mailto:dimasridwanm@gmail.com" target="_blank"><i class="ion-social-google"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/dimas-ridwan-maulana-a9085b176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61550824156813&mibextid=ZbWKwL" target="_blank"><i class="ion-social-facebook"></i></a></li>
+        <li><a href="line://ti/p/@yourid" target="_blank"><i class="ion-social-line"></i></a></li>
+        <li><a href="https://wa.me/6287770030105" target="_blank"><i class="ion-social-whatsapp"></i></a></li>
+      </ul>
+
+      </div>
+
+        <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+        Designed by <a href="https://www.instagram.com/dimsridwn/" target="_blank">Dimas_C5401211059</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="{{ url_for('static', filename='lib/jquery/jquery.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='lib/jquery/jquery-migrate.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='lib/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='lib/typed/typed.js')}}"></script>
+  <script src="{{ url_for('static', filename='lib/owlcarousel/owl.carousel.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='lib/magnific-popup/magnific-popup.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='lib/isotope/isotope.pkgd.min.js')}}"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="{{ url_for('static', filename='contactform/contactform.js')}}"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="{{ url_for('static', filename='js/main.js')}}"></script>
+
+</body>
+
+</html>
